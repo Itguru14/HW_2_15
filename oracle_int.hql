@@ -1,0 +1,15 @@
+/*  CHAR(30)*/
+CREATE  TABLE GEO_LOCATION1(USERS_CNT INT)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ',';
+
+
+
+insert overwrite table GEO_LOCATION1
+select count(*)
+from GEO_LOCATION;
+
+
+
+
+

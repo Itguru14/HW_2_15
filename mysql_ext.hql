@@ -1,5 +1,5 @@
 /*
-use STOCK_TRADE2;
+edit_use STOCK_TRADE2;
 */
 
 /*EXTERNAL */

@@ -1,4 +1,4 @@
-/*  CHAR(30)*/
+/*  CHAR(30test)*/
 
 CREATE EXTERNAL TABLE GEO_LOCATION(times CHAR(30),foot_traffic INT, temperature INT, parking_space_util INT, stock_price INT)
 ROW FORMAT DELIMITED
